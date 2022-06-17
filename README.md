@@ -21,6 +21,7 @@ wget https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_
 Inference!
 
 ```bash
+python resize.py
 python inference_realesrgan.py -n RealESRGAN_x4plus -i inputs 
 ```
 
